@@ -24,6 +24,6 @@ for json in search_json["value"]:
   df = df.append(se, ignore_index=True)
 
 from google.colab import files
-filename = "akb.csv"
-df.to_csv("akb.csv")
+filename = "pandasImageFileSearch.csv"
+df.to_csv("pandasImageFileSearch.csv")
 files.download(filename)
